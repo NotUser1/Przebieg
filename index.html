@@ -135,31 +135,31 @@
         "(2 * x * x + 5 * x - 3)/(x * x + 4 * x - 5)",
         -10,
         10,
-        0.05
+        0.01
       );
       generateData_1(
         "(2 * x * x + 5 * x - 3)/(x * x + 4 * x - 5)",
         -10,
         -5,
-        0.05
+        0.01
       );
       generateData_2(
         "(2 * x * x + 5 * x - 3)/(x * x + 4 * x - 5)",
         -5,
         1,
-        0.05
+        0.01
       );
       generateData_3(
         "(2 * x * x + 5 * x - 3)/(x * x + 4 * x - 5)",
         1,
         10,
-        0.05
+        0.01
       );
       generateData_as_poz(
         "(2 * x * x + 5 * x - 3)/(x * x + 4 * x - 5)",
         -10,
         10,
-        0.05
+        0.01
       );
       generate_OX();
 
@@ -268,12 +268,12 @@
         }
       }
       function generate_OX() {
-        for (let x = -10; x < 0; x += 0.05) {
+        for (let x = -10; x < 0; x += 0.01) {
           OX.push("a");
         }
         OX.push("-10");
         OX.push("10");
-        for (let x = 0; x < 10; x += 0.05) {
+        for (let x = 0; x < 10; x += 0.01) {
           OX.push("a");
         }
       }
